@@ -36,7 +36,9 @@ height: 100%;
 	animation: moveIt 500s linear infinite;
 	background-repeat: repeat;
 	background-position: 0 0;
+	background-image: url("../images/lumi.gif");
 }
+
 .hide {
 cursor: none;	
 }

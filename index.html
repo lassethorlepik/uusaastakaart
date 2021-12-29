@@ -8,11 +8,11 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body style="overflow: hidden;">
-	<div id="lumi"></div>
-	<div class="video-container" style="position:absolute;z-index:1;">
-		<video id="video" autoplay playsinline>
+	<div id="lumi" onclick="clickplay();"></div>
+	<div class="video-container" style="position:absolute;z-index:1;display: inline-block;">
+		<video id="video" controls>
 			<source src="uusvideo/video.mp4" type="video/mp4"/>
-		</video>		
+		</video>
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
